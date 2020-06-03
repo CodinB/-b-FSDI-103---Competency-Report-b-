@@ -1,0 +1,67 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+.zone{
+    width: 20rem;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+p{
+    font: size 1.6rem;
+    color:black;
+}
+
+.btn{
+    background-color: #960505;
+    color: white;
+    font-size: 1.4rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    background-color: #960505;
+    color: white;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    
+}
+
+h2{
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.console{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    height: 10rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

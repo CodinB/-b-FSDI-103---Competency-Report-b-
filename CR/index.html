@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my Video Game</h1>
+    <div class="wrap">
+        
+        <!-- first character -->
+        <div class="zone">
+            <h2>Link</h2>
+            <img src="https://31.media.tumblr.com/768ab30e84d23aff4961c67ec6ce4d53/tumblr_mfoj2zOLaz1rj0wh6o1_250.gif" alt="">
+            <button class="btn" onclick="link.attack(bowser);">Attack</button>
+        <p id="info-c1">
+            Character information
+        </p>
+    
+        </div>
+    
+       
+    
+        <!-- opponent -->
+    
+        <div class="zone">
+            <h2>Bowser</h2>
+            <img src="https://media1.tenor.com/images/285d3d9539e87d6b01067ab7978715c3/tenor.gif?itemid=12299960" alt="">
+            <button class="btn" onclick="bowser.attack(link);">Attack</button>
+            <p id="info-c2">
+                Character Information
+            </p>
+        </div>
+    </div> 
+
+    <div id="console" class="console">
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
